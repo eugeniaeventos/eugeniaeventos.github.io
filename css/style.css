@@ -1,0 +1,20 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f4f4f5;
+}
+img {
+  margin-top:100px;
+}
+
+.img2{
+  display: none;
+}
+
+@media only screen and (max-width: 500px){           .img1{
+  display: none;
+}
+
+  .img2{
+    display: block;
+  }
+}
